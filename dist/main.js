@@ -227,22 +227,6 @@ exports.default = function (_ref) {
   );
 };
 
-// export default ({onSelect}) => {
-//   return (
-//     <section style={{flex: 1}} className="main-content">
-//       <ul>
-//         <li style={{listStyle: 'none'}}>Objects</li>
-//         <ul>
-//           <li className='link' style={{listStyle: 'none'}} onClick={onSelect}>just-extend</li>
-//         </ul>
-//         <ul>
-//           <li className='link' style={{listStyle: 'none'}} onClick={onSelect}>just-filter-object</li>
-//         </ul>
-//       </ul>
-//     </section>
-//   );
-// }
-
 },{"../data":5,"just-map-object":31,"react":189}],4:[function(require,module,exports){
 'use strict';
 
