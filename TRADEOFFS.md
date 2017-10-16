@@ -25,9 +25,9 @@ Every Just utility is tiny. They all come in at well under 1K gzipped[¹](#¹Dat
 | just-safe-set | set      |  ∞  |
 | just-map-object | mapKeys      |    |
 | just-merge | merge      |    |
-| just-omit | omit      |    |
+| just-omit | omit      |  FAIL  |
 | just-pick | pick      |    |
-| just-values | values      |    |
+| just-values | values      | PASS¶  |
 | just-camel-case | camelCase      |    |
 | just-kebab-case | kebabCase      |    |
 | just-pad-left | padStart      |    |
@@ -36,7 +36,8 @@ Every Just utility is tiny. They all come in at well under 1K gzipped[¹](#¹Dat
 | just-truncate | truncate      |    |
 
 † `instance of` on instances of partial  
-* falsey argument discrepancy  
+* falsey argument discrepancy
+¶ expects object not falsey value as argument  
 π expects number arg (doesn't support coercion)   
 ¬ doesn't work as expected with other lodash utils  
 å doesn't work with arguments in lieu of arrays  
